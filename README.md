@@ -66,6 +66,27 @@ respectively. More information about the GHM, GGCM, and GVM output data is
 provided by Gosling et al. (2020), Arneth et al. (2020), and Reyer et al.
 (2019), respectively.
 
+Population exposure is calculated as annual expected population directly exposed
+to the occurrence of extreme heat or drought events, assuming any population
+directly within the footprint of an event is exposed, but not otherwise taking
+any other risk-mitigating or -propagating factors into account.
+
+Population is held constant at 2020 levels, using the JRC GHSL GHS-POP R2023A
+release, which can be cited as:
+
+> Schiavina M., Freire S., Carioli A., MacManus K. (2023) GHS-POP R2023A - GHS
+> population grid multitemporal (1975-2030).European Commission, Joint Research
+> Centre (JRC) PID:
+> http://data.europa.eu/89h/2ff68a52-5b5b-4a22-8f40-c41da8332cfe,
+> doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE
+
+Concept and methodology:
+
+> Freire S., MacManus K., Pesaresi M., Doxsey-Whitfield E., Mills J. (2016)
+> Development of new open and free multi-temporal global population grids at
+> 250m resolution. Geospatial Data in a Changing World; Association of
+> Geographic Information Laboratories in Europe (AGILE), AGILE 2016
+
 ## Workflow
 
 The data processing pipeline is defined in the `Snakefile`, which uses Python,
