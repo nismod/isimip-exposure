@@ -1,0 +1,13 @@
+name: isimip-exposure
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - gdal
+  - pandas
+  - netCDF4
+  - snakemake
+  - rioxarray
+  - xarray

@@ -1,0 +1,5 @@
+.snakemake/
+data/
+incoming_data/
+lange2020_expected_occurrence.zip
+
